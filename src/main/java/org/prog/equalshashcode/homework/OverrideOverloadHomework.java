@@ -11,19 +11,4 @@ package org.prog.equalshashcode.homework;
  * method(a), method(a,b) method(a,b,c)
  */
 public class OverrideOverloadHomework {
-    public static void main(String[] args) {
-        ClassA classA = new ClassA();
-        ClassB classB = new ClassB();
-        ClassB classC = new ClassC();
-        ClassB classD = new ClassD();
-
-        classA.baseMethod();
-        classB.baseMethod();
-        classC.baseMethod();
-        classD.baseMethod();
-
-        classA.method("A");
-        classB.method("A" , "B");
-        classC.method("A" , "B" , "C");
-    }
 }
